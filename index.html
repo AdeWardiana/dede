@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualNest</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            
+        }
+
+        .card{
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover{
+            transform: scale(1.05);
+        }
+
+        footer{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width :300px){
+            .car{
+                width :100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Belajar</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+        <h2>profil</h2>
+        <p> 大家好，我叫 Ade Wardiana，
+            今年 16 岁，来自印度尼西亚的万隆市。很高兴认识大家！
+            Dàjiā hǎo, wǒ jiào Ade Wardiana, jīnnián shíliù suì,
+             láizì Yìndùníxīyà de Wànlóng shì. Hěn gāoxìng rènshì dàjiā!</p>
+        </div>
+
+    <div class="card">
+        <h2>Galeri</h2>
+        <img src="https://www.dbl.id/uploads/school/3960/115-SMKN_1_KATAPANG.png" width="300">
+    </div>
+
+    <div class="card">
+        <h2>Kontak</h2>
+        <p>Nomor hp: 085871292400</p>
+        <p>Email: adewardiana6@gmail.com</p>
+        <a href="#" class="tombol">hubungi saya</a>
+    </div>
+  </div>
+
+    <footer>
+        &copy;= 2025 Ade Wardiana
+    </footer>
+</body>
+</html>
